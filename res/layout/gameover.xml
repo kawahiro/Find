@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D3D3D3">
+
+    <ImageView
+        android:id="@+id/gameovertitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/gameover"
+        android:src="@drawable/gameover" />
+
+    <ImageButton
+        android:id="@+id/contenuebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/contenue"
+        android:src="@drawable/contenue" />
+
+    <ImageView
+        android:id="@+id/scorebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/score"
+        android:src="@drawable/score" />
+
+    <ImageButton
+        android:id="@+id/titlebackbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/titleback"
+        android:src="@drawable/titleback" />
+
+    <ImageView
+        android:id="@+id/exitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:contentDescription="@string/bay"
+        android:src="@drawable/exit" />
+
+</LinearLayout>
